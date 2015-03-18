@@ -589,8 +589,15 @@
 
   <!-- AICP -->
   <project path="platform_manifest" name="AICP/platform_manifest" remote="aicp" revision="lp5.0" />
-  <project path="vendor/aicp" name="AICP/vendor_aicp" remote="aicp" revision="lp5.0" />
+  <project path="vendor/aicp" name="vardyrunks/android_vendor_du" remote="aicp" revision="lp" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="cm" revision="staging/cm-12.0" />
   <project path="packages/apps/AICP_OTA" name="AICP/packages_apps_AICP_OTA" remote="aicp" revision="lp5.0" />
+  
+  <!-- E980 -->
+<project path="device/lge/e980" name="vardyrunks/device_lge_e980" remote="github" revision="lp" />
+<project path="device/lge/ls970-common" name="vardyrunks/device_lge_ls970-common" remote="github" revision="lp" />
+<project path="kernel/lge/gproj" name="vardyrunks/lge-kernel-gproj" remote="github" revision="lp" />
+<project path="device/lge/gproj-common" name="vardyrunks/android_device_lge_gproj-common" remote="github" revision="lp" />
+<project path="vendor/lge" name="vardyrunks/proprietary_vendor_lge" remote="github" revision="lp" />
 
 </manifest>
